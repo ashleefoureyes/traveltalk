@@ -1,24 +1,3 @@
-# README
+# TravelTalk
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+An application similar to reddit, allows users to post and discuss different travel destinations with links. (So basically reddit..) I used this to touch up on ruby on rails development using guidlines from a tutorial by Mackenzie Childs. 
