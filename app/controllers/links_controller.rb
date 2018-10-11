@@ -1,4 +1,5 @@
 class LinksController < ApplicationController
+  before_action :set_link, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!, except: [:index, :show]
 
   # GET /links
@@ -17,7 +18,7 @@ class LinksController < ApplicationController
     @link = current_user.links.build
   end
 
-  # GET /links/1/edit
+  # GET /links/edit
   def edit
   end
 
