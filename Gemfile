@@ -9,6 +9,12 @@ gem 'devise', '~> 4.4', '>= 4.4.1'
 # Bootstrap
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
+# Gem simple form
+gem 'simple_form'
+
+# To use div_for method
+gem 'record_tag_helper', '~> 1.0'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
 # Use sqlite3 as the database for Active Record
